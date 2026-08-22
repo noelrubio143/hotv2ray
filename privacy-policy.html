@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - HOTSPACE VPN</title>
+<style>
+  :root{
+    --bg:#0b0f14;
+    --card:#121821;
+    --accent:#3fd0c9;
+    --accent2:#5b8cff;
+    --text:#e7edf3;
+    --muted:#9fb0c0;
+    --border:#1f2a37;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#0b0f14 0%,#0d131a 100%);
+    color:var(--text);
+    line-height:1.65;
+  }
+  header{
+    padding:48px 24px 32px;
+    text-align:center;
+    border-bottom:1px solid var(--border);
+    background:radial-gradient(600px 200px at 50% -50px, rgba(63,208,201,0.15), transparent);
+  }
+  header .logo{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:56px;height:56px;
+    border-radius:16px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    margin-bottom:16px;
+    font-size:26px;
+  }
+  header h1{
+    margin:0 0 8px;
+    font-size:26px;
+    letter-spacing:0.5px;
+  }
+  header p{
+    margin:0;
+    color:var(--muted);
+    font-size:14px;
+  }
+  main{
+    max-width:760px;
+    margin:0 auto;
+    padding:32px 20px 80px;
+  }
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px 22px;
+    margin-bottom:18px;
+  }
+  .card h2{
+    margin:0 0 12px;
+    font-size:17px;
+    color:var(--accent);
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .card p, .card li{
+    color:var(--text);
+    font-size:14.5px;
+  }
+  .card ul{
+    margin:8px 0 0;
+    padding-left:20px;
+  }
+  .card li{margin-bottom:6px;}
+  .muted{color:var(--muted);font-size:13px;}
+  .updated{
+    text-align:center;
+    color:var(--muted);
+    font-size:13px;
+    margin-bottom:28px;
+  }
+  a{color:var(--accent2);}
+  footer{
+    text-align:center;
+    padding:24px;
+    color:var(--muted);
+    font-size:12px;
+    border-top:1px solid var(--border);
+  }
+  .badge{
+    display:inline-block;
+    background:rgba(63,208,201,0.12);
+    color:var(--accent);
+    border:1px solid rgba(63,208,201,0.35);
+    padding:2px 10px;
+    border-radius:20px;
+    font-size:11px;
+    margin-left:8px;
+    vertical-align:middle;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🔒</div>
+  <h1>Privacy Policy</h1>
+  <p>HOTSPACE VPN</p>
+</header>
+
+<main>
+  <p class="updated">Huling na-update: <span id="updateDate"></span></p>
+
+  <div class="card">
+    <h2>📋 Panimula</h2>
+    <p>Ang HOTSPACE VPN ("kami", "app") ay nagpapahalaga sa privacy ng bawat user. Ang Privacy Policy na ito ay nagpapaliwanag kung anong impormasyon ang kinokolekta ng app, paano ito ginagamit, at paano namin pinoprotektahan ang iyong data kapag gamit mo ang aming serbisyo.</p>
+    <p>Sa paggamit ng HOTSPACE VPN, sumasang-ayon ka sa mga tuntunin na nakasaad sa dokumentong ito.</p>
+  </div>
+
+  <div class="card">
+    <h2>🔑 Mga Permission na Hinihiling ng App</h2>
+    <p>Para gumana nang maayos ang HOTSPACE VPN, humihiling ito ng mga sumusunod na permission:</p>
+    <ul>
+      <li><strong>Internet Access</strong> — kinakailangan para makakonekta sa VPN/tunnel server.</li>
+      <li><strong>Network State</strong> — ginagamit para ma-detect kung connected ka sa internet (WiFi/Data) bago at habang naka-connect sa VPN.</li>
+      <li><strong>Notifications</strong> — ginagamit para ipakita ang status ng koneksyon (connected/disconnected) sa notification bar.</li>
+      <li><strong>Foreground Service / VPN Service</strong> — kinakailangan ng Android para tumakbo ang VPN tunnel nang stable sa background.</li>
+    </ul>
+    <p class="muted">Hindi humihiling ang app ng access sa contacts, camera, microphone, gallery/photos, o location.</p>
+  </div>
+
+  <div class="card">
+    <h2>📊 Impormasyong Kinokolekta</h2>
+    <p>Ang HOTSPACE VPN ay isang tunneling/proxy application. Ang mga sumusunod na impormasyon ay maaaring ma-generate lokal sa iyong device habang ginagamit ang app:</p>
+    <ul>
+      <li>Configuration settings na iyong ipinasok (halimbawa: server address, port, username/password ng SSH o proxy) — ito ay iniimbak lamang sa loob ng device mo.</li>
+      <li>Connection logs (para lamang sa troubleshooting) na ipinapakita sa app mismo, hindi ipinapadala sa amin.</li>
+      <li>Basic app usage data (hal. crash logs) kung ito ay awtomatikong ipinapadala ng Android system o ng third-party library na ginamit sa app.</li>
+    </ul>
+    <p>Hindi namin kinokolekta ang iyong pangalan, email, o anumang personal na identifying information maliban kung kusang ibinigay mo ito (halimbawa, sa pag-contact sa amin para sa suporta).</p>
+  </div>
+
+  <div class="card">
+    <h2>🌐 Paggamit ng Data sa Koneksyon</h2>
+    <p>Kapag ginagamit ang VPN/tunnel feature, dumadaan ang iyong internet traffic sa pinili mong server (SSH/SSL/V2Ray, atbp.) na maaaring hostingan ng ikatlong-partido (third-party) provider. Ipinapaalala namin na:</p>
+    <ul>
+      <li>Ang app mismo ay hindi nagta-track o nagbebenta ng iyong browsing history.</li>
+      <li>Ang mga third-party server (kung mayroon) na ginagamit ng app ay maaaring may sariling privacy policy na dapat mo ring basahin.</li>
+      <li>Responsibilidad mo bilang user na piliin ang trusted/reliable server kapag mag-a-add ng custom configuration.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🔐 Seguridad ng Data</h2>
+    <p>Ang mga configuration at settings na iyong ipinasok ay naka-store lamang lokal sa iyong device gamit ang standard Android storage mechanisms. Hinihikayat namin ang mga user na huwag mag-share ng kanilang device o app settings sa hindi kilalang tao.</p>
+  </div>
+
+  <div class="card">
+    <h2>🚫 Hindi Namin Ginagawa</h2>
+    <ul>
+      <li>Hindi namin ibinebenta ang iyong data sa mga advertiser.</li>
+      <li>Hindi namin ginagamit ang iyong impormasyon para sa unauthorized na third-party marketing.</li>
+      <li>Hindi kami nangongolekta ng sensitive personal data tulad ng financial information sa loob ng app.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>👶 Privacy ng mga Bata</h2>
+    <p>Ang HOTSPACE VPN ay hindi dinisenyo para gamitin ng mga bata na wala pang 13 taong gulang. Hindi kami sadyang nangongolekta ng impormasyon mula sa mga bata.</p>
+  </div>
+
+  <div class="card">
+    <h2>♻️ Mga Pagbabago sa Privacy Policy</h2>
+    <p>Maaaring i-update ang Privacy Policy na ito paminsan-minsan. Ang anumang pagbabago ay ipapakita sa page na ito kasama ang bagong petsa ng pag-update. Hinihikayat namin ang mga user na paminsan-minsang balikan ang page na ito.</p>
+  </div>
+
+  <div class="card">
+    <h2>✉️ Makipag-ugnayan sa Amin</h2>
+    <p>Kung may mga tanong ka tungkol sa Privacy Policy na ito, maaari kang makipag-ugnayan sa amin sa:</p>
+    <p><strong>Email:</strong> <a href="mailto:support@hotspacevpn.com">support@hotspacevpn.com</a></p>
+    <p class="muted">*Palitan ang email address na ito ng aktwal na contact email ng iyong app bago i-publish.</p>
+  </div>
+</main>
+
+<footer>
+  © <span id="year"></span> HOTSPACE VPN. Lahat ng karapatan ay nakalaan.
+</footer>
+
+<script>
+  const now = new Date();
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById('updateDate').textContent = now.toLocaleDateString('fil-PH', options);
+  document.getElementById('year').textContent = now.getFullYear();
+</script>
+
+</body>
+</html>
